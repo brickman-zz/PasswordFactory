@@ -1,4 +1,4 @@
 # PasswordFactory
 Android application for generating passwords
 
-Soon I will be posting the source code to a password application I wrote a while back. I want to get it converted over to Android Studio first. Once I do that I may work a bit on modernizing it a bit (and probably a new release stating it is open source with a link back here).
+Here is the initial code commit for this project. I will be updating this to reveal the open source nature of this project, and perhaps a few tweaks to bring it more current. Feel free to submit pull requests if you would like to contribute any changes to this project.

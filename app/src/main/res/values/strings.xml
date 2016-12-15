@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Password Factory</string>
+	<string name="passwordTxt">P4ssw0rd</string>
+	<string name="generateBtn">Generate</string>
+	<string name="quit">Quit</string>
+	<string name="prefs">Preferences</string>
+	<string name="about">About</string>
+	<string name="aboutText">This application is still in beta. I have added most of the features I intend to, so perhaps I will drop the beta tag soon.\n\nThis application generates passwords. Originally it emphasized making these passwords somewhat prounouncable.  Since then, I have added a lot of features allowing the user control over numbers and special characters that could reduce that pronouncability.  However, it does make the applicaiton more flexible to meet various password criteria.\n\nAs a warning, these passwords are not entirely random. The attempt to make them somewhat pronounceable reduces their random nature. That is why it generates multiple passwords at a time. Hopefully one will phonetically make a little sense.\n\nThat said, it could randomly spell a real word. I do not recommend using real words even if they were generated somewhat randomly.  Strong passwords are tough, but this tool hopefully can give you some ideas to make stronger, memorable passwords.\n\n© 2011-2012 Bryan Rickman</string>
+</resources>

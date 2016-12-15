@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.bryanrickman.security" >
+
+    <com.bryanrickman.security.CharCountPreference
+        android:defaultValue="10"
+        android:key="charsPrefInt"
+        android:summary="The total number of characters to be generated for password"
+        android:title="Number of Characters"
+        custom:maxValue="18"
+        custom:minValue="8" />
+
+    <com.bryanrickman.security.NumPasswordsPreference
+        android:key="passwordCountInt"
+        android:persistent="true"
+        android:summary="The number of passwords to be generated at a time"
+        android:title="Number of Passwords" />
+
+    <com.bryanrickman.security.SeekBarPreference
+        android:key="frequencyCapsInt"
+        android:persistent="true"
+        android:summary="The probability of capital letters"
+        android:title="Frequency of Capital Letters" />
+    
+    <com.bryanrickman.security.SeekBarPreference
+        android:key="frequencyNumbersInt"
+        android:persistent="true"
+        android:summary="The probability of numbers in each password"
+        android:title="Frequency of Numbers" />
+    
+    <com.bryanrickman.security.SeekBarPreference
+        android:key="frequencySpecialCharsInt"
+        android:persistent="true"
+        android:summary="The probability of special characters in each password"
+        android:title="Frequency of Special Chars" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useApostBool"
+        android:title="!" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useAtBool"
+        android:title="\@" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="usePoundBool"
+        android:title="#" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useDollarBool"
+        android:title="$" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="usePercentBool"
+        android:title="%" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useCarrotBool"
+        android:title="^" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useAndBool"
+        android:title="&amp;" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useStarBool"
+        android:title="*" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useOpenParenBool"
+        android:title="(" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useCloseParenBool"
+        android:title=")" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useUnderScoreBool"
+        android:title="_" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="usePlusBool"
+        android:title="+" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useEqualBool"
+        android:title="=" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useMinusBool"
+        android:title="-" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useLessThanBool"
+        android:title="&lt;" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useGreaterThanBool"
+        android:title=">" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useQuestionBool"
+        android:title="\?" />
+    
+</PreferenceScreen>

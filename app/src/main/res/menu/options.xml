@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group1">
+        <item android:title="@string/quit" 
+        	android:id="@+id/quit" 
+        	android:icon="@android:drawable/ic_menu_close_clear_cancel">
+        </item>        
+        <item android:title="@string/prefs" 
+        	android:id="@+id/prefs" 
+        	android:icon="@android:drawable/ic_menu_preferences">
+        </item>
+        <item android:title="@string/about" 
+        	android:id="@+id/about"
+        	android:icon="@android:drawable/ic_menu_info_details">
+        </item>
+    </group>
+</menu>
